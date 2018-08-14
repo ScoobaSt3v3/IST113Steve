@@ -12,9 +12,9 @@ body {
 }
 
 li {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   text-align: left;
 } /*This just made my list item looks a little better, but not centered with the entire page.*/
 p {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
