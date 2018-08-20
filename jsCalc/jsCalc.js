@@ -27,4 +27,4 @@ document.getElementById("calcDivide") = divide(2, 4);
     console.log(multiply(4, 4));
     console.log(divide(8, 4));
 
-} *\
+}*\
