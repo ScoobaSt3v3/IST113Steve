@@ -22,6 +22,6 @@ function testCalc() {
     console.log(multiply(4, 4));
     console.log(divide(8, 4));
 
-}
+} 
 
 testCalc();

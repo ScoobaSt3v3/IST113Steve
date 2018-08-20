@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>My JavaScript App</title>
+	<link href="jsdom.css" rel="StyleSheet" />
+</head>
+<body>
+	<div id="page">
+		<h1 id="greeting">The DOM...</h1>
+		<fieldset>
+			<label>Element Content</label>
+			<input id="inputContent" name="inputContent" type="text" />
+
+			<label for="inputId">Element Class</label>
+			<input id="inputClass" name="inputClass" type="text" />
+
+			<hr />
+
+			<button id="buttonElement">Add to List One</button>
+			<button id="buttonSwap">Swap List One last item to List Two</button>
+		</fieldset>
+
+		<ul id="listOne">
+			<li>List One Item</li>
+		</ul>
+
+		<ul id="listTwo">
+			<li>List Two Item</li>
+		</ul>
+  	</div>
+	<script src="jsdom.js"></script>
+</body>
+</html>
