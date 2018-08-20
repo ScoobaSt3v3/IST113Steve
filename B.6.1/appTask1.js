@@ -15,6 +15,5 @@ function addToList() {
   });
 
   theToDoList.appendChild(newListElement);
-});
 }
 addToList();
