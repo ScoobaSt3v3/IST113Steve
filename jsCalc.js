@@ -23,3 +23,5 @@ function testCalc() {
     console.log(divide(8, 4));
 
 }
+
+testCalc();
