@@ -1,7 +1,8 @@
 
 
 function add(number1, number2) {
-    return(number1 + number2);
+    let sum = parseInt(number1) + parseInt(number2);
+	document.getElementById("calcAdd") = sum;
 }
 
 function subtract(number1, number2) {
