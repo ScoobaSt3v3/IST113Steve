@@ -1,8 +1,7 @@
 
 
 function add(number1, number2) {
-    let sum = parseInt(number1) + parseInt(number2);
-	document.getElementById("calcAdd") = sum;
+    return(number1 + number2);
 }
 
 function subtract(number1, number2) {
@@ -27,4 +26,4 @@ document.getElementById("calcDivide") = divide(2, 4);
     console.log(multiply(4, 4));
     console.log(divide(8, 4));
 
-}*\
+} *\
